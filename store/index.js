@@ -15,7 +15,7 @@ export const actions = {
     const url = "/repos/masayukinii1011/nuxt-vuex-axios-issues/issues"
     const { data } = await this.$axios.get(url, {
       headers: {
-        Authorization: `token ${ACCESS_TOKEN}`
+        Authorization: `token ${process.env.ACCESS_TOKEN}`
       }
     })
     console.log(data)
