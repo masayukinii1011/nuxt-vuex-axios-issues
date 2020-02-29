@@ -18,7 +18,6 @@ export const actions = {
         Authorization: `token ${process.env.ACCESS_TOKEN}`
       }
     })
-    console.log(data)
     ctx.commit("SET_ISSUES", data)
   }
 }
