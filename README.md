@@ -1,6 +1,7 @@
 # my_issue_app
 
-> My smashing Nuxt.js project
+nuxtでvuexを扱う練習。
+githubレポジトリのissuesを読み込み&作成機能。
 
 ## Build Setup
 
