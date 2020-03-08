@@ -1,6 +1,7 @@
 Nuxt.jsのVuexを理解するために、GitHubのIssue管理ツールを作成しました。
 - ユーザは指定したリポジトリのIssue一覧を閲覧できます。
 - ユーザは指定したリポジトリにIssueを追加できます。
+
 上記の機能を提供するために、以下を作成しました。
 - Vuex Store(store/index.js)
 - Issue一覧画面(pages/index.vue)
