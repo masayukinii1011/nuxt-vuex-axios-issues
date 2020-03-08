@@ -1,8 +1,11 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
-      <div class="container">
+      <div>
         <a class="navbar-brand" href="/">Home</a>
+      </div>
+      <div>
+        <a class="navbar-brand" href="https://github.com/masayukinii1011/nuxt-vuex-axios-issues/issues" target="_blank">Github</a>
       </div>
     </nav>
     <div class="container">
