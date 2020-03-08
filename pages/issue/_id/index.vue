@@ -2,7 +2,7 @@
   <section>
     <h2 class="mb-3">#{{issue.number}} {{issue.title}}</h2>
     <div class="text-right mb-5">
-      <a :href="issue.html_url">Open Github</a>
+      <a :href="issue.html_url" target="_blank">Open Github</a>
     </div>
     <div class="mb-5">{{issue.body}}</div>
     <router-link class="btn btn-outline-primary" to="/">back</router-link>
